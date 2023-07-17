@@ -61,7 +61,7 @@ body{
     background-attachment: scroll;
     color:white;
     */
-    transition: all 360ms linear;
+    transition: all 250ms linear;
 }
 .imgClass{
    width: 100%;
@@ -89,10 +89,10 @@ body{
     height: var(--height);
     left: calc((var(--containerWidth) - var(--width)) / 2);
     bottom: calc(var(--height) + 40px);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2) ;
     visibility: hidden;
     opacity: 0;
-    transition: all 400ms linear 300ms;
+    transition: all 250ms linear 300ms;
 }
 
 .item{
